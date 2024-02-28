@@ -2676,6 +2676,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3581661482532735073, guid: de0b240641108b442af8858fd4e8d554, type: 3}
+      propertyPath: vfxManager
+      value: 
+      objectReference: {fileID: 956967055}
+    - target: {fileID: 3581661482532735073, guid: de0b240641108b442af8858fd4e8d554, type: 3}
       propertyPath: audioManager
       value: 
       objectReference: {fileID: 469105885}
@@ -2776,7 +2780,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1438d5b2a2b04f4eb891cef90b08504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VFXSource: {fileID: 8551234644295075825, guid: d019902d29ec3e145b6809f3ce6f6a2c, type: 3}
+  VFXBumper: {fileID: 8551234644295075825, guid: d019902d29ec3e145b6809f3ce6f6a2c, type: 3}
+  VFXSwitch: {fileID: 8551234644295075825, guid: 6624d8db3dfb1b447bee6e97c9b526e0, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4181,6 +4186,10 @@ PrefabInstance:
       propertyPath: score
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3581661482532735073, guid: de0b240641108b442af8858fd4e8d554, type: 3}
+      propertyPath: vfxManager
+      value: 
+      objectReference: {fileID: 956967055}
     - target: {fileID: 3581661482532735073, guid: de0b240641108b442af8858fd4e8d554, type: 3}
       propertyPath: audioManager
       value: 
@@ -6427,6 +6436,10 @@ PrefabInstance:
       propertyPath: score
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3581661482532735073, guid: de0b240641108b442af8858fd4e8d554, type: 3}
+      propertyPath: vfxManager
+      value: 
+      objectReference: {fileID: 956967055}
     - target: {fileID: 3581661482532735073, guid: de0b240641108b442af8858fd4e8d554, type: 3}
       propertyPath: audioManager
       value: 

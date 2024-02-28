@@ -33,7 +33,7 @@ public class Bumper : MonoBehaviour
             audioManager.PlaySFXBumper(collision.transform.position);
 
             //PlayVFX
-            vfxManager.PlayVFX(collision.transform.position);
+            vfxManager.PlayVFXBumper(collision.transform.position);
 
             //Score add
             scoreManager.AddScore(score);

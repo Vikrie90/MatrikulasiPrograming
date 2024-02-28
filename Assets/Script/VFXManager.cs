@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class VFXManager : MonoBehaviour
 {
-    public GameObject VFXSource;
+    public GameObject VFXBumper;
+    public GameObject VFXSwitch;
 
 
-    public void PlayVFX(Vector3 spawnPosition)
+    public void PlayVFXBumper(Vector3 spawnPosition)
     {
-        GameObject.Instantiate(VFXSource, spawnPosition, Quaternion.identity);
+        GameObject.Instantiate(VFXBumper, spawnPosition, Quaternion.identity);
+    }
+    public void PlayVFXSwitch(Vector3 spawnPosition)
+    {
+        GameObject.Instantiate(VFXSwitch, spawnPosition, Quaternion.identity);
     }
 }

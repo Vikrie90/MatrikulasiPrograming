@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.VFX;
 
 public class SwitchController : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class SwitchController : MonoBehaviour
 
     public AudioManager audioManager;
     public ScoreManager scoreManager;
+    public VFXManager vfxManager;
+
     public float score;
 
     private SwitchState state;
@@ -68,7 +71,9 @@ public class SwitchController : MonoBehaviour
             Set(true);
         }
 
-        audioManager.PlaySFXSwitch(transform.position); ;
+        audioManager.PlaySFXSwitch(transform.position);
+        vfxManager.PlayVFXSwitch(transform.position);
+
 
         scoreManager.AddScore(score);
 
